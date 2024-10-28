@@ -1,0 +1,181 @@
+@media (max-width: 1355px){
+   .intro {
+      height: 1050px;
+   }
+   .intro__inner-images img{
+   top: 200px;
+   }
+   .intro__title {
+      font-size: 70px;
+   }
+   .row__items {
+      grid-template-columns: repeat( 2, 1fr);
+   }
+   .portfolio {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .reviews {
+      padding-left: 20px;
+   }
+   .reviews__item {
+      width: 60%;
+      }
+}
+
+@media (max-width: 1150px){
+   .intro {
+      height: 1050px;
+   }
+   .intro__inner-images img{
+    width: 300px;
+    top: inherit;
+    bottom: 0;
+   }
+   .intro__title {
+      font-size: 70px;
+   }
+   .intro__inner {
+      margin: 0 auto;
+   }
+   .intro__text {
+      color: #00887a86;
+   }
+   .team {
+      flex-wrap: wrap;
+   }
+   .team__col {
+    flex: none;
+    width: 50%;
+   }
+   .section-about__card {
+   grid-template-columns: repeat(1, 1fr);
+   }
+   .card__inner {
+      max-width: 500px;
+      margin: 0 auto;
+   }
+   .footer__address {
+      padding-top: 30px;
+      align-self: flex-end;
+   }
+}
+
+@media (max-width: 1030px){
+   .intro__inner {
+    margin: 0 auto;
+   }
+   .content {
+      padding: 40px;
+     }
+}
+
+@media (max-width: 900px) {
+   .intro__inner-images img{
+      width: 200px;
+     }
+}
+
+@media (max-width: 770px) {
+   .section {
+      padding: 60px 0px;
+   }
+   .intro {
+   min-height: 650px;
+   }
+   .intro__title {
+   font-size: 70px;
+   }
+   .header {
+   padding: 10px 0;
+   background-color: #a2cf8d;
+   }
+   .header__inner {
+   border-bottom: none;
+   }
+   .nav {
+   display: none;
+   width: 100%;
+   text-align: center;
+   right: 0;
+   top: 100%;
+   position: absolute;
+   background: #a2cf8d;
+}
+   .nav.active {
+      display: block;
+   }
+  .nav__link {
+    display: block;
+    color: #ffff;
+    margin: 0;
+    padding: 8px 20px;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .intro__inner-images img{
+   display: none;
+   }
+   .row__items {
+    grid-template-columns: repeat( 1, 1fr);
+   }
+   .team__col {
+    width: 100%;
+   }
+  .content__title-work {
+   font-size: 14px;
+   }
+   .section__title{
+    font-size: 25px;
+   }
+   .section__text {
+    font-size: 15px;
+   }
+   .reviews {
+    padding-top: 20px;
+   }
+   .reviews__item {
+    width: 80%;
+   background-color: #ffffffa8;
+    margin: 0 auto;
+   }
+  .section__contact-row {
+   grid-template-columns: repeat( 1, 1fr);
+   }
+   .contact-row__form {
+   order: -1;
+   }
+   .row-3 {
+   text-align: center;
+   }
+   .row__map {
+   text-align: center;
+   transform: none; 
+   }
+   .footer-container {
+      flex-direction: column;
+   }
+   .footer__content{
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0;
+      align-self: center;
+   }
+   .footer__social {
+   align-self: flex-start;
+   }
+   
+}
+
+  @media (max-width: 387px) {
+   .intro__title{
+      font-size: 60px;
+   }
+   .intro__supti {
+   font-size: 40px;
+   }
+   .reviews__item {
+    width: 100%;
+   }
+ }
+ 
