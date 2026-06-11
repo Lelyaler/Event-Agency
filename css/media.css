@@ -38,9 +38,7 @@
    .intro__inner {
       margin: 0 auto;
    }
-   .intro__text {
-      color: #00887a86;
-   }
+ 
    .team {
       flex-wrap: wrap;
    }
