@@ -86,7 +86,7 @@
    }
    .header {
    padding: 10px 0;
-   background-color: #a2cf8d;
+   background-color: #28541c;
    }
    .header__inner {
    border-bottom: none;
@@ -98,7 +98,7 @@
    right: 0;
    top: 100%;
    position: absolute;
-   background: #a2cf8d;
+   background: #28541c;
 }
    .nav.active {
       display: block;
