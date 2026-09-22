@@ -121,6 +121,10 @@
    .team__col {
     width: 100%;
    }
+   .team__image {
+    max-height: 330px;
+    object-fit: cover;
+   }
   .content__title-work {
    font-size: 14px;
    }
