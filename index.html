@@ -3,16 +3,21 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>EnJoy - Event Agency | Unforgettable Celebrations & Event Planning</title>
+   <meta name="description" content="EnJoy Event Agency specializes in crafting creative concepts, seamless execution, and memorable experiences for corporate celebrations and private events.">
+   <meta name="theme-color" content="#28541c">
+   <link rel="icon" type="image/png" href="favicon.png">
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
-   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet" />
-   <link href="https://fonts.googleapis.com/css?family=Unbounded:200,300,regular,500,600,700,800,900" rel="stylesheet" />
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
-   <script src="https://kit.fontawesome.com/4fb2306ebc.js" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-   <title>Event Agency</title>
+
+   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;600;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@1,300&display=swap" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;600;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@1,300&display=swap" media="print" onload="this.media='all'" />
+   <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;600;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@1,300&display=swap" />
+   </noscript>
 </head>
 <body>
 
@@ -20,7 +25,7 @@
       <div class="container">
         <div class="header__inner">
           <div class="logo" data-scroll="#intro">
-           <img class="logo__image" src="images/footer/коп.png" alt="Company Logo">
+           <img class="logo__image" src="images/footer/коп.webp" alt="EnJoy Event Agency Logo" width="60" height="39">
            <div class="logo__title">EnJoy</div>
          </div>
           <nav class="nav" id="nav">
@@ -29,14 +34,14 @@
             <a class="nav__link" href="#" data-scroll="#clients">Clients</a>
             <a class="nav__link" href="#" data-scroll="#product">Work</a>
             <a class="nav__link" href="#" data-scroll="#footer">Contact</a>
-            <a class="nav__link" href="#">
-              <i class="fas fas fa-home"></i>
+            <a class="nav__link" href="#" aria-label="Home">
+              <svg width="18" height="18" viewBox="0 0 576 512" fill="currentColor" aria-hidden="true" style="vertical-align:middle"><path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"/></svg>
             </a>
-            <a class="nav__link" href="#">
-              <i class="fas fa-search"></i>
+            <a class="nav__link" href="#" aria-label="Search">
+              <svg width="18" height="18" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" style="vertical-align:middle"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
             </a>
           </nav>
-          <button class="nav-toggle" id="nav_toggle" type="button">
+          <button class="nav-toggle" id="nav_toggle" type="button" aria-label="Toggle navigation menu">
             <span class="nav-toggle__item">Menu</span>
           </button>
         </div>   
@@ -101,15 +106,14 @@
          <div class="team">
               <div class="team__col">
                 <div class="team__item">
-                  <img class="team__image" src="images/work/1.jpg" alt="">
+                  <img class="team__image" src="images/work/1.webp" alt="Wedding celebration event" width="406" height="330" loading="lazy" decoding="async">
                   <div class="team__info">
-                     <a class="team__title href=""></a>
                     <h2 class="team__title">View Photos</h2>
                   </div>
                </div>
      
                 <div class="team__item">
-                  <img class="team__image" src="images/work/2.jpg" alt="">
+                  <img class="team__image" src="images/work/2.webp" alt="Corporate banquet event" width="406" height="330" loading="lazy" decoding="async">
                   <div class="team__info">
                     <h2 class="team__title">View Photos</h2>
                   </div>
@@ -118,14 +122,14 @@
               </div>
               <div class="team__col">
                 <div class="team__item">
-                  <img class="team__image" src="images/work/3.jpg" alt="">
+                  <img class="team__image" src="images/work/3.webp" alt="Holiday gala event" width="406" height="330" loading="lazy" decoding="async">
                   <div class="team__info">
                     <h2 class="team__title">View Photos</h2>
                   </div>
                 </div>
      
                 <div class="team__item">
-                  <img class="team__image" src="images/work/5.jpg" alt="">
+                  <img class="team__image" src="images/work/5.webp" alt="Festive event decor" width="406" height="330" loading="lazy" decoding="async">
                   <div class="team__info">
                     <h2 class="team__title">View Photos</h2>
                   </div>
@@ -133,7 +137,7 @@
               </div>
               <div class="team__col">
                 <div class="team__item">
-                  <img class="team__image" src="images/work/4.jpg" alt="">
+                  <img class="team__image" src="images/work/4.webp" alt="Special event setup" width="307" height="500" loading="lazy" decoding="async">
                   <div class="team__info">
                     <h2 class="team__title">View Photos</h2>
                   </div>
@@ -142,21 +146,21 @@
               </div>
               <div class="team__col">
                 <div class="team__item">
-                  <img class="team__image" src="images/work/6.jpg" alt="">
+                  <img class="team__image" src="images/work/6.webp" alt="Dinner party organization" width="406" height="330" loading="lazy" decoding="async">
                   <div class="team__info">
                     <h2 class="team__title">View Photos</h2>
                   </div>
                 </div>
      
                 <div class="team__item">
-                  <img class="team__image" src="images/work/7.jpg" alt="">
+                  <img class="team__image" src="images/work/7.webp" alt="Anniversary celebration event" width="406" height="330" loading="lazy" decoding="async">
                   <div class="team__info">
                     <h2 class="team__title">View Photos</h2>
                   </div>
                 </div>
                 <div class="modal" id="modal">
                   <span class="modal__close" id="modal_close">&times;</span>
-                  <img class="modal__content" id="modal_content" src="" alt="Full-size Image">
+                  <img class="modal__content" id="modal_content" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'%3E%3C/svg%3E" alt="Full-size Image">
                 </div>
               </div>
          </div> 
@@ -174,18 +178,18 @@
          <div class="container">
              <div class="section__header section__header-border">
                <h2 class="section__title">About Us</h2>
-               <h3 class="section__suptitle">Why Us?</h3>
+               <div class="section__suptitle">Why Us?</div>
              </div>
              <div class="section-about__card">
                <div class="card__items">
                  <div class="card__inner">
                    <div class="card__inner-img">
-                     <img src="images/about/1.jpg" alt="">
+                     <img src="images/about/1.webp" alt="Creative Concepts and Memorable Themes" width="800" height="800" loading="lazy" decoding="async">
                    </div>
-                   <h2 class="card__inner-text">Open article</h2>
+                   <div class="card__inner-text">Open article</div>
                  </div>
                  <div class="card__info">
-                     <h2 class="card__info-title">Creative Concepts and Memorable Themes</h2>
+                     <h3 class="card__info-title">Creative Concepts and Memorable Themes</h3>
                      <p class="card__info-suptile">Our event agency specializes in crafting creative concepts and memorable themes that set our clients' celebrations apart. From elegant and sophisticated soirées to fun and vibrant parties, we tailor each event to suit the unique preferences and visions of our clients. Our team of talented designers and planners collaborates closely with clients to bring their dream celebrations to life, ensuring that every detail, from decorations to entertainment, aligns perfectly with the chosen theme.</p>
                  </div>
                </div>
@@ -193,12 +197,12 @@
                <div class="card__items">
                  <div class="card__inner">
                    <div class="card__inner-img">
-                     <img src="images/about/2.jpg" alt="">
+                     <img src="images/about/2.webp" alt="Impeccable Planning and Execution" width="800" height="800" loading="lazy" decoding="async">
                    </div>
-                   <h2 class="card__inner-text">Open article</h2>
+                   <div class="card__inner-text">Open article</div>
                  </div>
                  <div class="card__info">
-                  <h2 class="card__info-title">Impeccable Planning and Execution</h2>
+                  <h3 class="card__info-title">Impeccable Planning and Execution</h3>
                   <p class="card__info-suptile">At our agency, meticulous planning and flawless execution are the cornerstones of every event we organize. Our experienced event coordinators meticulously manage all aspects of the planning process, from creating detailed timelines to coordinating with vendors and suppliers. On the day of the event, our dedicated team works tirelessly to ensure that everything runs smoothly, allowing our clients to relax and fully enjoy their special day without any worries. With our keen attention to detail and proactive approach, we pride ourselves on delivering events that exceed our clients' expectations.</p>
                </div>
                </div>
@@ -206,12 +210,12 @@
                <div class="card__items">
                  <div class="card__inner">
                    <div class="card__inner-img">
-                     <img src="images/about/3.jpg" alt="">
+                     <img src="images/about/3.webp" alt="Personalized Service and Client Satisfaction" width="800" height="800" loading="lazy" decoding="async">
                    </div>
-                   <h2 class="card__inner-text">Open article</h2>
+                   <div class="card__inner-text">Open article</div>
                  </div>
                  <div class="card__info">
-                  <h2 class="card__info-title">Personalized Service and Client Satisfaction</h2>
+                  <h3 class="card__info-title">Personalized Service and Client Satisfaction</h3>
                   <p class="card__info-suptile">Our agency places a strong emphasis on personalized service and client satisfaction. We believe in building meaningful relationships with our clients, understanding their preferences, and tailoring our services to meet their specific needs. From the initial consultation to the final farewell, we strive to exceed expectations and create lasting memories for our clients and their guests. Our commitment to exceptional service has earned us a loyal client base and numerous referrals, making us a trusted choice for any celebration or event </p>
                </div>
                </div>
@@ -224,62 +228,62 @@
             <div class="section__header">
                <h2 class="section__title">Unleashing Extraordinary Experiences</h2>
                <div class="section__text">
-                  <p>Discover our remarkable portfolio of unforgettable events.Unveil the Magic and Emotions We Create.</p>
+                  <p>Discover our remarkable portfolio of unforgettable events. Unveil the Magic and Emotions We Create.</p>
                </div>
             </div>
          </div>
          <div class="portfolio">
          <div class="portfolio__item">
-            <img class="portfolio__photo" src="images/portfolio/1.jpeg" alt="">
+            <img class="portfolio__photo" src="images/portfolio/1.webp" alt="Portfolio celebration event" width="533" height="800" loading="lazy" decoding="async">
             <div class="portfolio__content">
                <div class="portfolio__title">View Photos</div>
             </div>
          </div>
          <div class="portfolio__item">
-            <img class="portfolio__photo" src="images/portfolio/2.jpeg" alt="">
+            <img class="portfolio__photo" src="images/portfolio/2.webp" alt="Portfolio wedding celebration" width="533" height="800" loading="lazy" decoding="async">
             <div class="portfolio__content">
                <div class="portfolio__title">View Photos</div>
             </div>
          </div>
          <div class="portfolio__item">
-            <img class="portfolio__photo" src="images/portfolio/3.jpeg" alt="">
+            <img class="portfolio__photo" src="images/portfolio/3.webp" alt="Portfolio holiday event" width="533" height="800" loading="lazy" decoding="async">
             <div class="portfolio__content">
                <div class="portfolio__title">View Photos</div>
             </div>
          </div>
          <div class="portfolio__item">
-            <img class="portfolio__photo" src="images/portfolio/6.jpeg" alt="">
+            <img class="portfolio__photo" src="images/portfolio/6.webp" alt="Portfolio banquet celebration" width="530" height="800" loading="lazy" decoding="async">
             <div class="portfolio__content">
                <div class="portfolio__title">View Photos</div>
             </div>
          </div>
          <div class="portfolio__item">
-            <img class="portfolio__photo" src="images/portfolio/10.jpeg" alt="">
+            <img class="portfolio__photo" src="images/portfolio/10.webp" alt="Portfolio party reception" width="564" height="750" loading="lazy" decoding="async">
             <div class="portfolio__content">
                <div class="portfolio__title">View Photos</div>
             </div>
          </div>
          <div class="portfolio__item">
-            <img class="portfolio__photo" src="images/portfolio/7.jpeg" alt="">
+            <img class="portfolio__photo" src="images/portfolio/7.webp" alt="Portfolio anniversary celebration" width="533" height="800" loading="lazy" decoding="async">
             <div class="portfolio__content">
                <div class="portfolio__title">View Photos</div>
             </div>
          </div>
          <div class="portfolio__item">
-            <img class="portfolio__photo" src="images/portfolio/11.jpeg" alt="">
+            <img class="portfolio__photo" src="images/portfolio/11.webp" alt="Portfolio corporate event" width="500" height="750" loading="lazy" decoding="async">
             <div class="portfolio__content">
                <div class="portfolio__title">View Photos</div>
             </div>
          </div>
          <div class="portfolio__item">
-            <img class="portfolio__photo portfolio__photo-bottom" src="images/portfolio/9.jpeg" alt="">
+            <img class="portfolio__photo portfolio__photo-bottom" src="images/portfolio/9.webp" alt="Portfolio stage lighting" width="533" height="800" loading="lazy" decoding="async">
             <div class="portfolio__content">
                <div class="portfolio__title">View Photos</div>
             </div>
          </div>
          <div class="modal" id="modal-portfolio-1">
             <span class="modal__close" id="modal_close">&times;</span>
-            <img class="modal__content" id="modal_content" src="" alt="Full-size Image">
+            <img class="modal__content" id="modal_content" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'%3E%3C/svg%3E" alt="Full-size Image">
           </div>
       </div>
       </section>
@@ -288,8 +292,8 @@
          <div class="container">
 
             <div class="section__header">
-               <h3 class="section__suptitle">Happy Clients</h3>
                <h2 class="section__title">What people say</h2>
+               <div class="section__suptitle">Happy Clients</div>
             </div>
             <div class="reviews__dots">
                <span class="reviews__dot active"></span>
@@ -300,7 +304,7 @@
             <div class="reviews"> 
             
                <div class="reviews__item">
-                  <img class="reviews__photo" src="images/rewi/IMG_7894_small.jpg" alt="">
+                  <img class="reviews__photo" src="images/rewi/IMG_7894_small.webp" alt="Nikolay Bredeliev" width="110" height="110" loading="lazy" decoding="async">
                   <div class="reviews__content">
                      <div class="reviews__name">Nikolay Bredeliev</div>
                      <div class="reviews__prof">Head of Public Relations and ESG Department, Unitary Enterprise "A1"</div>
@@ -309,7 +313,7 @@
                </div>
                
                <div class="reviews__item">
-                  <img class="reviews__photo" src="images/rewi/zadala.jpg" alt="">
+                  <img class="reviews__photo" src="images/rewi/zadala.webp" alt="Olga Zadalya" width="110" height="110" loading="lazy" decoding="async">
                   <div class="reviews__content">
                      <div class="reviews__name">Olga Zadalya</div>
                      <div class="reviews__prof">Deputy Director for Organizational Matters, IOOO Gazpromneft-Belnefteprodukt</div>
@@ -318,7 +322,7 @@
                </div>
 
                <div class="reviews__item">
-                  <img class="reviews__photo" src="images/rewi/mikshis.jpg" alt="">
+                  <img class="reviews__photo" src="images/rewi/mikshis.webp" alt="Audrius Mikshis" width="110" height="110" loading="lazy" decoding="async">
                   <div class="reviews__content">
                      <div class="reviews__name">Audrius Mikshis</div>
                      <div class="reviews__prof">CEO of JSC Lidskoe Pivo</div>
@@ -327,7 +331,7 @@
                </div>
 
                <div class="reviews__item">
-                  <img class="reviews__photo" src="images/rewi/vashkevich2.jpg" alt="">
+                  <img class="reviews__photo" src="images/rewi/vashkevich2.webp" alt="Ekaterina Vashkevich" width="110" height="110" loading="lazy" decoding="async">
                   <div class="reviews__content">
                      <div class="reviews__name">Ekaterina Vashkevich</div>
                      <div class="reviews__prof">Head of Human Resources Department at LLC "Mobile TeleSystems</div>
@@ -343,29 +347,29 @@
       <section class="section section__contact">
          <div class="container">
                <div class="section-heading">
-                  <h4 class="section-heading__title">Contact Us</h4>
+                  <h2 class="section-heading__title">Contact Us</h2>
                   <div class="section-heading__line"></div>
                </div>
 
             <div class="section__contact-row">
                <div class="contact-row__map">
                   <div class="row__map">
-                     <h2 class="row__map-title">
+                     <div class="row__map-title">
                      <div><i class="fas fa-map-marker-alt"></i></div>
-                     <a href="https://goo.gl/maps/kZADLawZJY8eiyXg7" target="_blank">Open map</a>
-                     </h2>
+                     <a href="https://goo.gl/maps/kZADLawZJY8eiyXg7" target="_blank" rel="noopener noreferrer">Open map</a>
+                     </div>
                   </div>
                </div>
                <div class="contact-row__form">
                   <form action="" method="post">
                      <div class="row-1">
-                        <input name="name" type="text" class="form__control" id="name" placeholder="Your name..." required="">
+                        <input name="name" type="text" class="form__control" id="name" placeholder="Your name..." required="" aria-label="Your name">
                      </div>
                      <div class="row-2">
-                        <input name="email" type="email" class="form__control" id="email" placeholder="Your email..." required="">
+                        <input name="email" type="email" class="form__control" id="email" placeholder="Your email..." required="" aria-label="Your email">
                      </div>
                      <div class="row-3">
-                        <textarea name="message" rows="6" class="form__message" id="message" placeholder="Your message..." required=""></textarea>
+                        <textarea name="message" rows="6" class="form__message" id="message" placeholder="Your message..." required="" aria-label="Your message"></textarea>
                      </div>
                      <div class="row-3">
                         <button type="submit" id="form-submit" class="button__contact">Send Message</button>
@@ -381,7 +385,7 @@
 <footer class="footer" id="footer">
   <section class="footer-container">
    <div class="logo" data-scroll="#intro">
-      <img class="logo__image" src="images/footer/копи.png" alt="Company Logo">
+      <img class="logo__image" src="images/footer/копи.webp" alt="EnJoy Event Agency Logo" width="60" height="39" loading="lazy" decoding="async">
       <div class="logo__title">EnJoy</div>
    </div>
    <div class="footer__content">
@@ -409,15 +413,15 @@
          <h3 class="footer__title">Contacts</h3>
          <ul class="footer__contact-list">
            <li class="footer__contact-item">
-             <a href="tel:+1123456789">
-               <i class="fas fa-phone"></i>+1 123 456 789
-             </a>
-           </li>
-           <li class="footer__contact-item">
-             <a href="mailto:info@company.com">
-               <i class="far fa-envelope"></i>info@company.com
-             </a>
-           </li>
+              <a href="tel:+1123456789">
+                <svg width="14" height="14" viewBox="0 0 512 512" fill="currentColor" class="fa-phone" aria-hidden="true" style="vertical-align:middle;margin-right:10px"><path d="M493.4 401.5l-104-64c-11.4-7-25.9-4.8-34.9 5.3l-43.3 48.7c-65.8-32.9-119-86.1-151.9-151.9l48.7-43.3c10.1-9 12.3-23.5 5.3-34.9l-64-104C142.1 44.8 126.9 38 113.6 42.2L24.3 70.8C10.1 75.3 0 88.5 0 103.4 0 327.9 184.1 512 408.6 512c14.9 0 28.1-10.1 32.6-24.3l28.6-89.3c4.2-13.3-2.6-28.5-16.4-36.9z"/></svg>+1 123 456 789
+              </a>
+            </li>
+            <li class="footer__contact-item">
+              <a href="mailto:info@company.com">
+                <svg width="14" height="14" viewBox="0 0 512 512" fill="currentColor" class="fa-envelope" aria-hidden="true" style="vertical-align:middle;margin-right:10px"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 200.444 69.422 171.064 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.062-54.955 49.529-38.784 82.024-64.395 104.938-82.646V400H48z"/></svg>info@company.com
+              </a>
+            </li>
          </ul>
       </div> 
    </div>
@@ -425,19 +429,19 @@
       <h3 class="footer__title">Follow Us</h3>
       <ul class="footer__social-list">
             <li>
-                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 320 512" fill="currentColor" aria-hidden="true" style="vertical-align:middle"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" style="vertical-align:middle"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true" style="vertical-align:middle"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-rss"></i></a>
+                <a href="#" aria-label="RSS Feed"><svg width="16" height="16" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true" style="vertical-align:middle"><path d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.925c-8.913-98.39-87.525-177.002-185.915-185.915C52.023 276.516 38.4 288.75 38.4 304.575v34.407c0 14.152 10.373 26.24 24.372 28.188 64.671 8.989 115.86 60.178 124.849 124.849 1.948 13.999 14.036 24.372 28.188 24.372h34.407c15.825 0 28.059-13.623 26.865-29.467zm144.259.043c-8.799-178.69-151.785-321.676-330.474-330.474C101.697 132.656 88 144.979 88 160.835v34.407c0 14.376 10.742 26.541 25.048 28.163 118.995 13.486 212.946 107.437 226.432 226.432 1.622 14.306 13.787 25.048 28.163 25.048h34.407c15.856 0 28.179-13.697 27.279-29.537z"/></svg></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#" aria-label="Dribbble"><svg width="16" height="16" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" style="vertical-align:middle"><path d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-28.393-16.817-42.494 74.237-36.709 111.536-77.587 116.484-82.643zM256 48c62.481 0 118.846 25.636 159.08 66.947-4.887 4.935-40.447 44.042-113.415 79.143-34.909-64.214-72.787-115.569-76.082-119.917C235.719 50.312 245.694 48 256 48zm-51.47 11.218c3.279 4.308 40.919 55.338 75.814 119.349-65.557 17.989-130.279 26.54-192.906 26.54-7.985 0-15.861-.144-23.639-.425 21.085-66.274 72.843-117.848 140.731-145.464zM48 256c0-4.23.162-8.426.468-12.585 8.28.307 16.685.463 25.174.463 68.399 0 137.992-9.293 207.727-28.701 6.074 14.992 11.879 30.244 17.926 45.16-41.06 12.015-84.542 41.869-120.724 87.27C109.188 353.15 67.3 309.28 48 256zm208 208c-56.536 0-108.026-21.366-147.056-56.598 35.132-43.207 76.5-71.748 116.37-83.472 23.557 60.943 41.166 120.206 47.933 145.748-5.32 1.484-10.79 2.579-16.347 3.322C264.896 463.666 260.485 464 256 464zm41.34-11.486c-5.716-22.18-22.28-79.059-45.459-138.88 67.77-9.747 131.2-1.288 137.907-.37-18.069 57.345-56.544 105.02-92.448 139.25z"/></svg></a>
             </li>
       </ul>
    </div>
@@ -445,15 +449,15 @@
   
   <div class="footer-container">
    <div class="footer__address">
-     <i class="fas fa-map-marker-alt"></i>
-     <a href=""class="footer__address-text">123 Example Street, City</a>
+     <svg width="14" height="14" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true" style="margin-right:8px;vertical-align:middle"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 86.039 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>
+     <a href="#" class="footer__address-text">123 Example Street, City</a>
    </div>
  </div>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js" defer></script>
+<script src="js/main.js" defer></script>
 
 </body>
 </html>

@@ -7,16 +7,6 @@ $(function() {
 
 /* Fixed Header */
 
-   checkScroll(scrollOffset);
-
-   $(window).on("scroll", function() {
-
-       scrollOffset = $(this).scrollTop();
-    
-       checkScroll(scrollOffset);
-
-   });
-
    function checkScroll(scrollOffset) {
         if( scrollOffset >= introH ) {
          header.addClass("fixed");
@@ -24,6 +14,12 @@ $(function() {
          header.removeClass("fixed");
         }
    }
+
+   checkScroll($(window).scrollTop());
+
+   window.addEventListener("scroll", function() {
+       checkScroll(window.pageYOffset || document.documentElement.scrollTop);
+   }, { passive: true });
 
 
 /* Smooth scroll */
@@ -80,36 +76,30 @@ $(document).ready(function() {
 
 /* Confetti */
 
-var duration = 15 * 1000;
-    var defaults = { startVelocity: 70, spread: 360, ticks: 120, zIndex: 0 };
-    var animationEnd; // Объявляем переменную как глобальную
-
     function randomInRange(min, max) {
       return Math.random() * (max - min) + min;
     }
 
     function launchConfetti() {
-      var timeLeft = animationEnd - Date.now();
+      if (typeof confetti !== "function") return;
+      var duration = 2.5 * 1000;
+      var animationEnd = Date.now() + duration;
+      var defaults = { startVelocity: 45, spread: 360, ticks: 80, zIndex: 0 };
 
-      if (timeLeft <= 0) {
-        animationEnd = Date.now() + duration; // Обновляем animationEnd для следующей анимации
-      }
+      var interval = setInterval(function() {
+        var timeLeft = animationEnd - Date.now();
 
-      var particleCount = 200 * (timeLeft / duration);
-      confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
-      confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+        if (timeLeft <= 0) {
+          return clearInterval(interval);
+        }
 
-      // Запуск анимации через 2 секунды
-      setTimeout(launchConfetti, 2000);
+        var particleCount = 40 * (timeLeft / duration);
+        confetti(Object.assign({}, defaults, { particleCount: particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+        confetti(Object.assign({}, defaults, { particleCount: particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+      }, 350);
     }
 
-    function startConfettiAnimation() {
-      animationEnd = Date.now() + duration;
-      launchConfetti();
-    }
-
-    // Запустить анимацию при загрузке страницы
-    startConfettiAnimation();
+    setTimeout(launchConfetti, 500);
 
 
 
