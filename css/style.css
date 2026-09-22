@@ -517,8 +517,8 @@ body {
 
 .team__item {
   position: relative;
-
   background: linear-gradient(to bottom, #7db77b, #fce38a);
+  overflow: hidden;
 }
 
 .team__item:hover .team__image {
@@ -533,8 +533,8 @@ body {
   display: block;
   transition: opacity 0.2s linear;
   max-width: 100%;
+  width: 100%;
   height: auto;
-  width: 100vw;
 }
 
 .team__info {
@@ -1137,7 +1137,6 @@ body {
   color: #fff;
 }
 
-.section-team,
 .section-about,
 .section__reviews,
 .section__contact,
